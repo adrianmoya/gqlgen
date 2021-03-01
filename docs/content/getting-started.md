@@ -199,7 +199,7 @@ func (r *todoResolver) User(ctx context.Context, obj *model.Todo) (*model.User, 
 
 ## Finishing touches
 
-At the top of our `resolver.go`, between `package` and `import`, add the following line:
+At the top of our `schema.resolvers.go`, between `package` and `import`, add the following line:
 
 ```go
 //go:generate go run github.com/99designs/gqlgen
